@@ -6,7 +6,7 @@ import { defineConfig } from 'vite';
 export default defineConfig(({ command }) => {
   return {
     plugins: [react(), tailwindcss()],
-    base: './',
+    base: '/school-manager/',
     resolve: {
       alias: {
         '@': path.resolve(__dirname, './src'),
